@@ -121,4 +121,146 @@
             }
         }
     }
+
+
+    /*adaptation*/
+    @media (min-width:300px) and (max-width:820px) {
+        #header {
+            h4 {
+                font-size: 500%;
+            }
+
+            h5 {
+                width: 85%;
+            }
+
+            #menu {
+                h4 {
+                    font-size: 400%;
+                }
+
+                h5 {
+                    font-size: 200%;
+                    margin-left: 7%;
+                }
+
+                nav {
+                    ul {
+
+                        li {
+                            margin-left: 0%;
+                            margin-right: 4%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width:768px) and (max-width:1023px) {
+        #header {
+            h4 {
+                font-size: 1000%;
+            }
+
+            h5 {
+                font-size: 190%;
+                width: 90%;
+            }
+
+            h6 {
+                font-size: 150%;
+            }
+
+            #menu {
+                h4 {
+                    font-size: 700%;
+                }
+
+                h5 {
+                    font-size: 350%;
+                }
+
+                nav {
+                    margin-left: 5%;
+
+                    ul {
+                        li {
+                            font-size: 150%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media(min-width:1920px) {
+        #header {
+            h4 {
+                font-size: 1500%;
+            }
+
+            h5 {
+                font-size: 200%;
+                width: 40%;
+            }
+
+            h6 {
+                font-size: 200%;
+            }
+
+            #menu {
+                h4 {
+                    font-size: 800%;
+                }
+
+                h5 {
+                    font-size: 400%;
+                }
+
+                nav {
+                    ul {
+                        li {
+                            font-size: 150%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width:2550px) {
+        #header {
+            h4 {
+                font-size: 2000%;
+            }
+
+            h5 {
+                font-size: 300%;
+                width: 40%;
+            }
+
+            h6 {
+                font-size: 300%;
+            }
+
+            #menu {
+                h4 {
+                    font-size: 1100%;
+                }
+
+                h5 {
+                    font-size: 600%;
+                }
+
+                nav {
+                    ul {
+                        li {
+                            font-size: 250%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 </style>
