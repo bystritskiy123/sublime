@@ -83,7 +83,7 @@
             background-image: url('../assets/menu.png');
             background-size: cover;
             width: 90%;
-            height: 45rem;
+            height: 50rem;
             margin-top: 10%;
             margin-left: 5%;
             display: inline-block;
@@ -210,6 +210,8 @@
             }
 
             #menu {
+                height: 60rem;
+
                 h4 {
                     font-size: 800%;
                 }
@@ -245,6 +247,8 @@
             }
 
             #menu {
+                height: 80rem;
+
                 h4 {
                     font-size: 1100%;
                 }

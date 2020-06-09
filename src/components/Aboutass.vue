@@ -84,4 +84,44 @@
             }
         }
     }
+
+
+    /*adaptation*/
+    @media (min-width:350px) and (max-width:820px) {
+        #Aboutass {
+            .row {
+                #part_1 {
+                    h4 {
+                        margin-left: 0%;
+                    }
+                }
+
+                #part_2 {
+                    h3 {
+                        margin-left: 15%;
+                    }
+
+                    h4 {
+                        margin-left: 12%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width:1024px) and (max-width:1370px) {
+        #Aboutass {
+            .row {
+                #part_1 {
+                    h3 {
+                        margin-left: 10%;
+                    }
+
+                    h4 {
+                        margin-left: 5%;
+                    }
+                }
+            }
+        }
+    }
 </style>
